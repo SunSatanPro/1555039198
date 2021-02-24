@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2024D0B61160013BCCFAF6E8 /* Pods_WeChat_Work.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BEF98D0D4F96E4D97101FB6 /* Pods_WeChat_Work.framework */; };
+		4D5D7F7325E50E4B00814A65 /* WeChatWorkPassWordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5D7F4E25E50E4B00814A65 /* WeChatWorkPassWordController.m */; };
+		4D5D7F7425E50E4B00814A65 /* WeChatWorkPasswordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5D7F4F25E50E4B00814A65 /* WeChatWorkPasswordCell.m */; };
+		4D5D7F7525E50E4B00814A65 /* WeChatWorkAddDingdanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5D7F5425E50E4B00814A65 /* WeChatWorkAddDingdanController.m */; };
+		4D5D7F7625E50E4B00814A65 /* WSDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D5D7F5925E50E4B00814A65 /* WSDatePickerView.xib */; };
+		4D5D7F7725E50E4B00814A65 /* WSDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5D7F5A25E50E4B00814A65 /* WSDatePickerView.m */; };
+		4D5D7F7825E50E4B00814A65 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5D7F5B25E50E4B00814A65 /* NSDate+Extension.m */; };
+		4D5D7F7925E50E4B00814A65 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5D7F5C25E50E4B00814A65 /* UIView+Extension.m */; };
+		4D5D7F7A25E50E4B00814A65 /* WeChatWorkDingdanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5D7F5E25E50E4B00814A65 /* WeChatWorkDingdanController.m */; };
+		4D5D7F7B25E50E4B00814A65 /* WeChatWorkJietuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5D7F6025E50E4B00814A65 /* WeChatWorkJietuViewController.m */; };
+		4D5D7F7C25E50E4B00814A65 /* WatermarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5D7F6325E50E4B00814A65 /* WatermarkView.m */; };
+		4D5D7F7D25E50E4B00814A65 /* WeChatWorkShuiyinController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5D7F6425E50E4B00814A65 /* WeChatWorkShuiyinController.m */; };
+		4D5D7F7E25E50E4B00814A65 /* WeChatWorkAddCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5D7F6925E50E4B00814A65 /* WeChatWorkAddCodeController.m */; };
+		4D5D7F7F25E50E4B00814A65 /* WeChatWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5D7F6C25E50E4B00814A65 /* WeChatWorkManager.m */; };
+		4D5D7F8025E50E4B00814A65 /* WeChatWorkPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5D7F6D25E50E4B00814A65 /* WeChatWorkPreviewView.m */; };
+		4D5D7F8125E50E4B00814A65 /* WeChatWorkDATAController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5D7F6F25E50E4B00814A65 /* WeChatWorkDATAController.m */; };
+		4D5D7F8225E50E4B00814A65 /* WeChatWorkPinjieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5D7F7225E50E4B00814A65 /* WeChatWorkPinjieController.m */; };
+		4DE886D125E4A40800CE6AE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE886D025E4A40800CE6AE1 /* AppDelegate.m */; };
+		4DE886D425E4A40800CE6AE1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE886D325E4A40800CE6AE1 /* SceneDelegate.m */; };
+		4DE886D725E4A40800CE6AE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE886D625E4A40800CE6AE1 /* ViewController.m */; };
+		4DE886DA25E4A40800CE6AE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE886D825E4A40800CE6AE1 /* Main.storyboard */; };
+		4DE886DC25E4A40A00CE6AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE886DB25E4A40A00CE6AE1 /* Assets.xcassets */; };
+		4DE886DF25E4A40A00CE6AE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE886DD25E4A40A00CE6AE1 /* LaunchScreen.storyboard */; };
+		4DE886E225E4A40A00CE6AE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE886E125E4A40A00CE6AE1 /* main.m */; };
+		4DE886ED25E4A44B00CE6AE1 /* WaterRippleAndView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE886EB25E4A44B00CE6AE1 /* WaterRippleAndView.m */; };
+		4DE886FA25E4A76700CE6AE1 /* SKT.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE886F925E4A76700CE6AE1 /* SKT.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BEF98D0D4F96E4D97101FB6 /* Pods_WeChat_Work.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeChat_Work.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5D7F4E25E50E4B00814A65 /* WeChatWorkPassWordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatWorkPassWordController.m; sourceTree = "<group>"; };
+		4D5D7F4F25E50E4B00814A65 /* WeChatWorkPasswordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatWorkPasswordCell.m; sourceTree = "<group>"; };
+		4D5D7F5025E50E4B00814A65 /* WeChatWorkPassWordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatWorkPassWordController.h; sourceTree = "<group>"; };
+		4D5D7F5125E50E4B00814A65 /* WeChatWorkPasswordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatWorkPasswordCell.h; sourceTree = "<group>"; };
+		4D5D7F5325E50E4B00814A65 /* WeChatWorkDingdanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatWorkDingdanController.h; sourceTree = "<group>"; };
+		4D5D7F5425E50E4B00814A65 /* WeChatWorkAddDingdanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatWorkAddDingdanController.m; sourceTree = "<group>"; };
+		4D5D7F5625E50E4B00814A65 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		4D5D7F5725E50E4B00814A65 /* WSDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDatePickerView.h; sourceTree = "<group>"; };
+		4D5D7F5825E50E4B00814A65 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		4D5D7F5925E50E4B00814A65 /* WSDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSDatePickerView.xib; sourceTree = "<group>"; };
+		4D5D7F5A25E50E4B00814A65 /* WSDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDatePickerView.m; sourceTree = "<group>"; };
+		4D5D7F5B25E50E4B00814A65 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		4D5D7F5C25E50E4B00814A65 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		4D5D7F5D25E50E4B00814A65 /* WeChatWorkAddDingdanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatWorkAddDingdanController.h; sourceTree = "<group>"; };
+		4D5D7F5E25E50E4B00814A65 /* WeChatWorkDingdanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatWorkDingdanController.m; sourceTree = "<group>"; };
+		4D5D7F6025E50E4B00814A65 /* WeChatWorkJietuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatWorkJietuViewController.m; sourceTree = "<group>"; };
+		4D5D7F6125E50E4B00814A65 /* WeChatWorkJietuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatWorkJietuViewController.h; sourceTree = "<group>"; };
+		4D5D7F6325E50E4B00814A65 /* WatermarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatermarkView.m; sourceTree = "<group>"; };
+		4D5D7F6425E50E4B00814A65 /* WeChatWorkShuiyinController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatWorkShuiyinController.m; sourceTree = "<group>"; };
+		4D5D7F6525E50E4B00814A65 /* WatermarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatermarkView.h; sourceTree = "<group>"; };
+		4D5D7F6625E50E4B00814A65 /* WeChatWorkShuiyinController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatWorkShuiyinController.h; sourceTree = "<group>"; };
+		4D5D7F6825E50E4B00814A65 /* WeChatWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatWorkManager.h; sourceTree = "<group>"; };
+		4D5D7F6925E50E4B00814A65 /* WeChatWorkAddCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatWorkAddCodeController.m; sourceTree = "<group>"; };
+		4D5D7F6A25E50E4B00814A65 /* WeChatWorkPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatWorkPreviewView.h; sourceTree = "<group>"; };
+		4D5D7F6B25E50E4B00814A65 /* WeChatWorkDATAController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatWorkDATAController.h; sourceTree = "<group>"; };
+		4D5D7F6C25E50E4B00814A65 /* WeChatWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatWorkManager.m; sourceTree = "<group>"; };
+		4D5D7F6D25E50E4B00814A65 /* WeChatWorkPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatWorkPreviewView.m; sourceTree = "<group>"; };
+		4D5D7F6E25E50E4B00814A65 /* WeChatWorkAddCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatWorkAddCodeController.h; sourceTree = "<group>"; };
+		4D5D7F6F25E50E4B00814A65 /* WeChatWorkDATAController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatWorkDATAController.m; sourceTree = "<group>"; };
+		4D5D7F7125E50E4B00814A65 /* WeChatWorkPinjieController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatWorkPinjieController.h; sourceTree = "<group>"; };
+		4D5D7F7225E50E4B00814A65 /* WeChatWorkPinjieController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatWorkPinjieController.m; sourceTree = "<group>"; };
+		4DE886CC25E4A40800CE6AE1 /* WeChat Work.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WeChat Work.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE886CF25E4A40800CE6AE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DE886D025E4A40800CE6AE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DE886D225E4A40800CE6AE1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4DE886D325E4A40800CE6AE1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4DE886D525E4A40800CE6AE1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4DE886D625E4A40800CE6AE1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4DE886D925E4A40800CE6AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DE886DB25E4A40A00CE6AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DE886DE25E4A40A00CE6AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DE886E025E4A40A00CE6AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DE886E125E4A40A00CE6AE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DE886EB25E4A44B00CE6AE1 /* WaterRippleAndView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterRippleAndView.m; sourceTree = "<group>"; };
+		4DE886EC25E4A44B00CE6AE1 /* WaterRippleAndView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterRippleAndView.h; sourceTree = "<group>"; };
+		4DE886F825E4A76700CE6AE1 /* SKT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKT.h; sourceTree = "<group>"; };
+		4DE886F925E4A76700CE6AE1 /* SKT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKT.m; sourceTree = "<group>"; };
+		4DE886FC25E4A77100CE6AE1 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		76653C697CB6D1FC209CF411 /* Pods-WeChat Work.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChat Work.release.xcconfig"; path = "Target Support Files/Pods-WeChat Work/Pods-WeChat Work.release.xcconfig"; sourceTree = "<group>"; };
+		C6ADDF9AEA1CFE92D86D7B4B /* Pods-WeChat Work.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChat Work.debug.xcconfig"; path = "Target Support Files/Pods-WeChat Work/Pods-WeChat Work.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DE886C925E4A40800CE6AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2024D0B61160013BCCFAF6E8 /* Pods_WeChat_Work.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15A6B1D5663FBE95AEAB1369 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6ADDF9AEA1CFE92D86D7B4B /* Pods-WeChat Work.debug.xcconfig */,
+				76653C697CB6D1FC209CF411 /* Pods-WeChat Work.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4D5D7F4D25E50E4B00814A65 /* 账号管理 */ = {
+			isa = PBXGroup;
+			children = (
+				4D5D7F4E25E50E4B00814A65 /* WeChatWorkPassWordController.m */,
+				4D5D7F4F25E50E4B00814A65 /* WeChatWorkPasswordCell.m */,
+				4D5D7F5025E50E4B00814A65 /* WeChatWorkPassWordController.h */,
+				4D5D7F5125E50E4B00814A65 /* WeChatWorkPasswordCell.h */,
+			);
+			path = "账号管理";
+			sourceTree = "<group>";
+		};
+		4D5D7F5225E50E4B00814A65 /* 订单管理 */ = {
+			isa = PBXGroup;
+			children = (
+				4D5D7F5D25E50E4B00814A65 /* WeChatWorkAddDingdanController.h */,
+				4D5D7F5425E50E4B00814A65 /* WeChatWorkAddDingdanController.m */,
+				4D5D7F5325E50E4B00814A65 /* WeChatWorkDingdanController.h */,
+				4D5D7F5E25E50E4B00814A65 /* WeChatWorkDingdanController.m */,
+				4D5D7F5525E50E4B00814A65 /* WSDatePickerView */,
+			);
+			path = "订单管理";
+			sourceTree = "<group>";
+		};
+		4D5D7F5525E50E4B00814A65 /* WSDatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				4D5D7F5625E50E4B00814A65 /* NSDate+Extension.h */,
+				4D5D7F5725E50E4B00814A65 /* WSDatePickerView.h */,
+				4D5D7F5825E50E4B00814A65 /* UIView+Extension.h */,
+				4D5D7F5925E50E4B00814A65 /* WSDatePickerView.xib */,
+				4D5D7F5A25E50E4B00814A65 /* WSDatePickerView.m */,
+				4D5D7F5B25E50E4B00814A65 /* NSDate+Extension.m */,
+				4D5D7F5C25E50E4B00814A65 /* UIView+Extension.m */,
+			);
+			path = WSDatePickerView;
+			sourceTree = "<group>";
+		};
+		4D5D7F5F25E50E4B00814A65 /* 九宫格 */ = {
+			isa = PBXGroup;
+			children = (
+				4D5D7F6025E50E4B00814A65 /* WeChatWorkJietuViewController.m */,
+				4D5D7F6125E50E4B00814A65 /* WeChatWorkJietuViewController.h */,
+			);
+			path = "九宫格";
+			sourceTree = "<group>";
+		};
+		4D5D7F6225E50E4B00814A65 /* 个人水印 */ = {
+			isa = PBXGroup;
+			children = (
+				4D5D7F6325E50E4B00814A65 /* WatermarkView.m */,
+				4D5D7F6425E50E4B00814A65 /* WeChatWorkShuiyinController.m */,
+				4D5D7F6525E50E4B00814A65 /* WatermarkView.h */,
+				4D5D7F6625E50E4B00814A65 /* WeChatWorkShuiyinController.h */,
+			);
+			path = "个人水印";
+			sourceTree = "<group>";
+		};
+		4D5D7F6725E50E4B00814A65 /* 二维码 */ = {
+			isa = PBXGroup;
+			children = (
+				4D5D7F6825E50E4B00814A65 /* WeChatWorkManager.h */,
+				4D5D7F6925E50E4B00814A65 /* WeChatWorkAddCodeController.m */,
+				4D5D7F6A25E50E4B00814A65 /* WeChatWorkPreviewView.h */,
+				4D5D7F6B25E50E4B00814A65 /* WeChatWorkDATAController.h */,
+				4D5D7F6C25E50E4B00814A65 /* WeChatWorkManager.m */,
+				4D5D7F6D25E50E4B00814A65 /* WeChatWorkPreviewView.m */,
+				4D5D7F6E25E50E4B00814A65 /* WeChatWorkAddCodeController.h */,
+				4D5D7F6F25E50E4B00814A65 /* WeChatWorkDATAController.m */,
+			);
+			path = "二维码";
+			sourceTree = "<group>";
+		};
+		4D5D7F7025E50E4B00814A65 /* 拼接图片 */ = {
+			isa = PBXGroup;
+			children = (
+				4D5D7F7125E50E4B00814A65 /* WeChatWorkPinjieController.h */,
+				4D5D7F7225E50E4B00814A65 /* WeChatWorkPinjieController.m */,
+			);
+			path = "拼接图片";
+			sourceTree = "<group>";
+		};
+		4DE886C325E4A40800CE6AE1 = {
+			isa = PBXGroup;
+			children = (
+				4DE886CE25E4A40800CE6AE1 /* WeChat Work */,
+				4DE886CD25E4A40800CE6AE1 /* Products */,
+				15A6B1D5663FBE95AEAB1369 /* Pods */,
+				FA4606BC3893DD640436F2B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4DE886CD25E4A40800CE6AE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DE886CC25E4A40800CE6AE1 /* WeChat Work.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DE886CE25E4A40800CE6AE1 /* WeChat Work */ = {
+			isa = PBXGroup;
+			children = (
+				4DE886F825E4A76700CE6AE1 /* SKT.h */,
+				4DE886F925E4A76700CE6AE1 /* SKT.m */,
+				4DE886CF25E4A40800CE6AE1 /* AppDelegate.h */,
+				4DE886D025E4A40800CE6AE1 /* AppDelegate.m */,
+				4DE886D225E4A40800CE6AE1 /* SceneDelegate.h */,
+				4DE886D325E4A40800CE6AE1 /* SceneDelegate.m */,
+				4DE886EC25E4A44B00CE6AE1 /* WaterRippleAndView.h */,
+				4DE886EB25E4A44B00CE6AE1 /* WaterRippleAndView.m */,
+				4DE886D525E4A40800CE6AE1 /* ViewController.h */,
+				4DE886D625E4A40800CE6AE1 /* ViewController.m */,
+				4D5D7F5225E50E4B00814A65 /* 订单管理 */,
+				4D5D7F6725E50E4B00814A65 /* 二维码 */,
+				4D5D7F6225E50E4B00814A65 /* 个人水印 */,
+				4D5D7F5F25E50E4B00814A65 /* 九宫格 */,
+				4D5D7F7025E50E4B00814A65 /* 拼接图片 */,
+				4D5D7F4D25E50E4B00814A65 /* 账号管理 */,
+				4DE886D825E4A40800CE6AE1 /* Main.storyboard */,
+				4DE886DB25E4A40A00CE6AE1 /* Assets.xcassets */,
+				4DE886DD25E4A40A00CE6AE1 /* LaunchScreen.storyboard */,
+				4DE886FC25E4A77100CE6AE1 /* PrefixHeader.pch */,
+				4DE886E025E4A40A00CE6AE1 /* Info.plist */,
+				4DE886E125E4A40A00CE6AE1 /* main.m */,
+			);
+			path = "WeChat Work";
+			sourceTree = "<group>";
+		};
+		FA4606BC3893DD640436F2B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BEF98D0D4F96E4D97101FB6 /* Pods_WeChat_Work.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DE886CB25E4A40800CE6AE1 /* WeChat Work */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DE886E525E4A40A00CE6AE1 /* Build configuration list for PBXNativeTarget "WeChat Work" */;
+			buildPhases = (
+				64B2A56906566378D64E5645 /* [CP] Check Pods Manifest.lock */,
+				4DE886C825E4A40800CE6AE1 /* Sources */,
+				4DE886C925E4A40800CE6AE1 /* Frameworks */,
+				4DE886CA25E4A40800CE6AE1 /* Resources */,
+				93223CB15A09A53C851BE8A9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WeChat Work";
+			productName = "WeChat Work";
+			productReference = 4DE886CC25E4A40800CE6AE1 /* WeChat Work.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DE886C425E4A40800CE6AE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WeChatWork;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = SK;
+				TargetAttributes = {
+					4DE886CB25E4A40800CE6AE1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 4DE886C725E4A40800CE6AE1 /* Build configuration list for PBXProject "WeChat Work" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DE886C325E4A40800CE6AE1;
+			productRefGroup = 4DE886CD25E4A40800CE6AE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DE886CB25E4A40800CE6AE1 /* WeChat Work */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DE886CA25E4A40800CE6AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE886DF25E4A40A00CE6AE1 /* LaunchScreen.storyboard in Resources */,
+				4DE886DC25E4A40A00CE6AE1 /* Assets.xcassets in Resources */,
+				4D5D7F7625E50E4B00814A65 /* WSDatePickerView.xib in Resources */,
+				4DE886DA25E4A40800CE6AE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64B2A56906566378D64E5645 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeChat Work-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93223CB15A09A53C851BE8A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeChat Work/Pods-WeChat Work-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeChat Work/Pods-WeChat Work-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeChat Work/Pods-WeChat Work-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DE886C825E4A40800CE6AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE886FA25E4A76700CE6AE1 /* SKT.m in Sources */,
+				4DE886D725E4A40800CE6AE1 /* ViewController.m in Sources */,
+				4D5D7F8225E50E4B00814A65 /* WeChatWorkPinjieController.m in Sources */,
+				4D5D7F7A25E50E4B00814A65 /* WeChatWorkDingdanController.m in Sources */,
+				4D5D7F7825E50E4B00814A65 /* NSDate+Extension.m in Sources */,
+				4D5D7F7D25E50E4B00814A65 /* WeChatWorkShuiyinController.m in Sources */,
+				4DE886D125E4A40800CE6AE1 /* AppDelegate.m in Sources */,
+				4D5D7F8125E50E4B00814A65 /* WeChatWorkDATAController.m in Sources */,
+				4DE886E225E4A40A00CE6AE1 /* main.m in Sources */,
+				4D5D7F7725E50E4B00814A65 /* WSDatePickerView.m in Sources */,
+				4D5D7F7925E50E4B00814A65 /* UIView+Extension.m in Sources */,
+				4D5D7F7E25E50E4B00814A65 /* WeChatWorkAddCodeController.m in Sources */,
+				4D5D7F7C25E50E4B00814A65 /* WatermarkView.m in Sources */,
+				4D5D7F8025E50E4B00814A65 /* WeChatWorkPreviewView.m in Sources */,
+				4D5D7F7525E50E4B00814A65 /* WeChatWorkAddDingdanController.m in Sources */,
+				4DE886ED25E4A44B00CE6AE1 /* WaterRippleAndView.m in Sources */,
+				4D5D7F7425E50E4B00814A65 /* WeChatWorkPasswordCell.m in Sources */,
+				4D5D7F7325E50E4B00814A65 /* WeChatWorkPassWordController.m in Sources */,
+				4DE886D425E4A40800CE6AE1 /* SceneDelegate.m in Sources */,
+				4D5D7F7F25E50E4B00814A65 /* WeChatWorkManager.m in Sources */,
+				4D5D7F7B25E50E4B00814A65 /* WeChatWorkJietuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DE886D825E4A40800CE6AE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DE886D925E4A40800CE6AE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DE886DD25E4A40A00CE6AE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DE886DE25E4A40A00CE6AE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DE886E325E4A40A00CE6AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4DE886E425E4A40A00CE6AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DE886E625E4A40A00CE6AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6ADDF9AEA1CFE92D86D7B4B /* Pods-WeChat Work.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J64X3MCD9Q;
+				GCC_PREFIX_HEADER = "WeChat Work/PrefixHeader.pch";
+				INFOPLIST_FILE = "WeChat Work/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.wechatwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4DE886E725E4A40A00CE6AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76653C697CB6D1FC209CF411 /* Pods-WeChat Work.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J64X3MCD9Q;
+				GCC_PREFIX_HEADER = "WeChat Work/PrefixHeader.pch";
+				INFOPLIST_FILE = "WeChat Work/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.wechatwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DE886C725E4A40800CE6AE1 /* Build configuration list for PBXProject "WeChat Work" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE886E325E4A40A00CE6AE1 /* Debug */,
+				4DE886E425E4A40A00CE6AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DE886E525E4A40A00CE6AE1 /* Build configuration list for PBXNativeTarget "WeChat Work" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE886E625E4A40A00CE6AE1 /* Debug */,
+				4DE886E725E4A40A00CE6AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DE886C425E4A40800CE6AE1 /* Project object */;
+}
