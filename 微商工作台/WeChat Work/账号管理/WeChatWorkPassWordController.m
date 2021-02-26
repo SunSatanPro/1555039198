@@ -32,28 +32,30 @@
 }
 
 - (IBAction)WeChatWorkPassWordAdd:(id)sender {
-    SCLAlertView *WeChatWorkalert = [[SCLAlertView alloc] init];
-    
-    WeChatWorkalert.customViewColor = self.navigationController.navigationBar.barTintColor;
-    
-    SCLTextView *WeChatWorktext1 = [WeChatWorkalert addTextField:@"账号信息"];
-    SCLTextView *WeChatWorktext2 = [WeChatWorkalert addTextField:@"密码信息"];
-    WeChatWorktext1.textAlignment = NSTextAlignmentCenter;
-    WeChatWorktext2.textAlignment = NSTextAlignmentCenter;
-    WeChatWorktext1.textColor = self.navigationController.navigationBar.barTintColor;
-    WeChatWorktext2.textColor = self.navigationController.navigationBar.barTintColor;
-    
-    [WeChatWorkalert addButton:@"确认" actionBlock:^{
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            [SKT checkError:@[WeChatWorktext1,WeChatWorktext2] Title:@"添加账号" Contents:@[@"账号",@"密码"] ReInfo:NO Block:^(id  _Nullable object) {
-                [self.WeChatWorkData addObject:@{WeChatWorktext1.text:WeChatWorktext2.text}];
-                SKUserSet(@"WeChatWorkPassWord", self.WeChatWorkData);
-                [self.tableView reloadData];
-            }];
-        });
+    [self showADComplete:^{
+        SCLAlertView *WeChatWorkalert = [[SCLAlertView alloc] init];
+        
+        WeChatWorkalert.customViewColor = self.navigationController.navigationBar.barTintColor;
+        
+        SCLTextView *WeChatWorktext1 = [WeChatWorkalert addTextField:@"账号信息"];
+        SCLTextView *WeChatWorktext2 = [WeChatWorkalert addTextField:@"密码信息"];
+        WeChatWorktext1.textAlignment = NSTextAlignmentCenter;
+        WeChatWorktext2.textAlignment = NSTextAlignmentCenter;
+        WeChatWorktext1.textColor = self.navigationController.navigationBar.barTintColor;
+        WeChatWorktext2.textColor = self.navigationController.navigationBar.barTintColor;
+        
+        [WeChatWorkalert addButton:@"确认" actionBlock:^{
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                [SKT checkError:@[WeChatWorktext1,WeChatWorktext2] Title:@"添加账号" Contents:@[@"账号",@"密码"] ReInfo:NO Block:^(id  _Nullable object) {
+                    [self.WeChatWorkData addObject:@{WeChatWorktext1.text:WeChatWorktext2.text}];
+                    SKUserSet(@"WeChatWorkPassWord", self.WeChatWorkData);
+                    [self.tableView reloadData];
+                }];
+            });
+        }];
+        
+        [WeChatWorkalert showEdit:self.navigationController title:@"提醒" subTitle:@"请输入账号和密码" closeButtonTitle:@"取消" duration:0.0f];
     }];
-    
-    [WeChatWorkalert showEdit:self.navigationController title:@"提醒" subTitle:@"请输入账号和密码" closeButtonTitle:@"取消" duration:0.0f];
 }
 
 

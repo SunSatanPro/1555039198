@@ -9,12 +9,11 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
-
+#import "SMJAD.h"
 #import "SKT.h"
 #import "SDWebImage.h"
 #import "Masonry.h"
 #import "SCLAlertView.h"
-#import "SceneDelegate.h"
 #import "UIScrollView+EmptyDataSet.h"
 #endif /* PrefixHeader_pch */
 

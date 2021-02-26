@@ -25,7 +25,6 @@
 		4D5D7F8125E50E4B00814A65 /* WeChatWorkDATAController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5D7F6F25E50E4B00814A65 /* WeChatWorkDATAController.m */; };
 		4D5D7F8225E50E4B00814A65 /* WeChatWorkPinjieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5D7F7225E50E4B00814A65 /* WeChatWorkPinjieController.m */; };
 		4DE886D125E4A40800CE6AE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE886D025E4A40800CE6AE1 /* AppDelegate.m */; };
-		4DE886D425E4A40800CE6AE1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE886D325E4A40800CE6AE1 /* SceneDelegate.m */; };
 		4DE886D725E4A40800CE6AE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE886D625E4A40800CE6AE1 /* ViewController.m */; };
 		4DE886DA25E4A40800CE6AE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE886D825E4A40800CE6AE1 /* Main.storyboard */; };
 		4DE886DC25E4A40A00CE6AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE886DB25E4A40A00CE6AE1 /* Assets.xcassets */; };
@@ -33,6 +32,43 @@
 		4DE886E225E4A40A00CE6AE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE886E125E4A40A00CE6AE1 /* main.m */; };
 		4DE886ED25E4A44B00CE6AE1 /* WaterRippleAndView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE886EB25E4A44B00CE6AE1 /* WaterRippleAndView.m */; };
 		4DE886FA25E4A76700CE6AE1 /* SKT.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE886F925E4A76700CE6AE1 /* SKT.m */; };
+		E3E0427825E8CE0D00892652 /* SMJAD_UM_Config.txt in Resources */ = {isa = PBXBuildFile; fileRef = E3E0425225E8CE0D00892652 /* SMJAD_UM_Config.txt */; };
+		E3E0427925E8CE0D00892652 /* 广告库接入和使用.txt in Resources */ = {isa = PBXBuildFile; fileRef = E3E0425325E8CE0D00892652 /* 广告库接入和使用.txt */; };
+		E3E0427A25E8CE0D00892652 /* libLiteADLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E0425725E8CE0D00892652 /* libLiteADLibrary.a */; };
+		E3E0427B25E8CE0D00892652 /* BUAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E0425925E8CE0D00892652 /* BUAdSDK.framework */; };
+		E3E0427C25E8CE0D00892652 /* BUCNAuxiliary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E0425A25E8CE0D00892652 /* BUCNAuxiliary.framework */; };
+		E3E0427D25E8CE0D00892652 /* BUFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E0425B25E8CE0D00892652 /* BUFoundation.framework */; };
+		E3E0427E25E8CE0D00892652 /* BUAdSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E3E0425C25E8CE0D00892652 /* BUAdSDK.bundle */; };
+		E3E0427F25E8CE0D00892652 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E0425E25E8CE0D00892652 /* MBProgressHUD.m */; };
+		E3E0428025E8CE0D00892652 /* UIView+action.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E0426325E8CE0D00892652 /* UIView+action.m */; };
+		E3E0428125E8CE0D00892652 /* AdBannerHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E0426425E8CE0D00892652 /* AdBannerHeadView.m */; };
+		E3E0428225E8CE0D00892652 /* UIImageView+SSWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E0426525E8CE0D00892652 /* UIImageView+SSWebImage.m */; };
+		E3E0428325E8CE0D00892652 /* SMJADmanager.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E0426725E8CE0D00892652 /* SMJADmanager.m */; };
+		E3E0428425E8CE0D00892652 /* UIViewController+showAd.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E0426A25E8CE0D00892652 /* UIViewController+showAd.m */; };
+		E3E0428525E8CE0D00892652 /* SMJADRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E0426B25E8CE0D00892652 /* SMJADRootViewController.m */; };
+		E3E0428625E8CE0D00892652 /* SMJADSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E0426C25E8CE0D00892652 /* SMJADSecondViewController.m */; };
+		E3E0428725E8CE0D00892652 /* smjad_icon_redpacket.png in Resources */ = {isa = PBXBuildFile; fileRef = E3E0426D25E8CE0D00892652 /* smjad_icon_redpacket.png */; };
+		E3E0428825E8CE0D00892652 /* SMJADNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E0426F25E8CE0D00892652 /* SMJADNavigationController.m */; };
+		E3E0428925E8CE0D00892652 /* smjad_icon_close.png in Resources */ = {isa = PBXBuildFile; fileRef = E3E0427225E8CE0D00892652 /* smjad_icon_close.png */; };
+		E3E0428A25E8CE0D00892652 /* SMJADRedPacketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E0427625E8CE0D00892652 /* SMJADRedPacketViewController.m */; };
+		E3E0428B25E8CE0D00892652 /* SMJADThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E0427725E8CE0D00892652 /* SMJADThirdViewController.m */; };
+		E3E0429A25E8CE7400892652 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E0429925E8CE7400892652 /* libc++.tbd */; };
+		E3E0429D25E8CE7A00892652 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E0429C25E8CE7A00892652 /* libz.tbd */; };
+		E3E042A025E8CE7F00892652 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E0429F25E8CE7F00892652 /* libsqlite3.tbd */; };
+		E3E042A325E8CE8500892652 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E042A225E8CE8500892652 /* libbz2.tbd */; };
+		E3E042A625E8CE9600892652 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E042A525E8CE9600892652 /* libxml2.tbd */; };
+		E3E042A925E8CE9B00892652 /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E042A825E8CE9B00892652 /* libresolv.9.tbd */; };
+		E3E042AC25E8CEA000892652 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E042AB25E8CEA000892652 /* Accelerate.framework */; };
+		E3E042AE25E8CEA600892652 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E042AD25E8CEA600892652 /* AdSupport.framework */; };
+		E3E042B025E8CEAB00892652 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E042AF25E8CEAB00892652 /* AVFoundation.framework */; };
+		E3E042B225E8CEAF00892652 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E042B125E8CEAF00892652 /* CoreTelephony.framework */; };
+		E3E042B425E8CEB700892652 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E042B325E8CEB700892652 /* CoreMotion.framework */; };
+		E3E042B625E8CEBD00892652 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E042B525E8CEBD00892652 /* CoreLocation.framework */; };
+		E3E042B825E8CEC200892652 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E042B725E8CEC200892652 /* CoreMedia.framework */; };
+		E3E042BA25E8CEC700892652 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E042B925E8CEC700892652 /* MediaPlayer.framework */; };
+		E3E042BC25E8CECC00892652 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E042BB25E8CECC00892652 /* StoreKit.framework */; };
+		E3E042BE25E8CED100892652 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E042BD25E8CED100892652 /* SystemConfiguration.framework */; };
+		E3E042C025E8CED700892652 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E042BF25E8CED600892652 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,8 +107,6 @@
 		4DE886CC25E4A40800CE6AE1 /* WeChat Work.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WeChat Work.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE886CF25E4A40800CE6AE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4DE886D025E4A40800CE6AE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4DE886D225E4A40800CE6AE1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		4DE886D325E4A40800CE6AE1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		4DE886D525E4A40800CE6AE1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4DE886D625E4A40800CE6AE1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4DE886D925E4A40800CE6AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -87,6 +121,56 @@
 		4DE886FC25E4A77100CE6AE1 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		76653C697CB6D1FC209CF411 /* Pods-WeChat Work.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChat Work.release.xcconfig"; path = "Target Support Files/Pods-WeChat Work/Pods-WeChat Work.release.xcconfig"; sourceTree = "<group>"; };
 		C6ADDF9AEA1CFE92D86D7B4B /* Pods-WeChat Work.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChat Work.debug.xcconfig"; path = "Target Support Files/Pods-WeChat Work/Pods-WeChat Work.debug.xcconfig"; sourceTree = "<group>"; };
+		E3E0425225E8CE0D00892652 /* SMJAD_UM_Config.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SMJAD_UM_Config.txt; sourceTree = "<group>"; };
+		E3E0425325E8CE0D00892652 /* 广告库接入和使用.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "广告库接入和使用.txt"; sourceTree = "<group>"; };
+		E3E0425425E8CE0D00892652 /* SMJAD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMJAD.h; sourceTree = "<group>"; };
+		E3E0425625E8CE0D00892652 /* LiteADLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiteADLibrary.h; sourceTree = "<group>"; };
+		E3E0425725E8CE0D00892652 /* libLiteADLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLiteADLibrary.a; sourceTree = "<group>"; };
+		E3E0425925E8CE0D00892652 /* BUAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUAdSDK.framework; sourceTree = "<group>"; };
+		E3E0425A25E8CE0D00892652 /* BUCNAuxiliary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUCNAuxiliary.framework; sourceTree = "<group>"; };
+		E3E0425B25E8CE0D00892652 /* BUFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUFoundation.framework; sourceTree = "<group>"; };
+		E3E0425C25E8CE0D00892652 /* BUAdSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BUAdSDK.bundle; sourceTree = "<group>"; };
+		E3E0425E25E8CE0D00892652 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		E3E0425F25E8CE0D00892652 /* AdBannerHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdBannerHeadView.h; sourceTree = "<group>"; };
+		E3E0426025E8CE0D00892652 /* UIView+action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+action.h"; sourceTree = "<group>"; };
+		E3E0426125E8CE0D00892652 /* UIImageView+SSWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SSWebImage.h"; sourceTree = "<group>"; };
+		E3E0426225E8CE0D00892652 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		E3E0426325E8CE0D00892652 /* UIView+action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+action.m"; sourceTree = "<group>"; };
+		E3E0426425E8CE0D00892652 /* AdBannerHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdBannerHeadView.m; sourceTree = "<group>"; };
+		E3E0426525E8CE0D00892652 /* UIImageView+SSWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SSWebImage.m"; sourceTree = "<group>"; };
+		E3E0426725E8CE0D00892652 /* SMJADmanager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMJADmanager.m; sourceTree = "<group>"; };
+		E3E0426825E8CE0D00892652 /* SMJADmanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMJADmanager.h; sourceTree = "<group>"; };
+		E3E0426A25E8CE0D00892652 /* UIViewController+showAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+showAd.m"; sourceTree = "<group>"; };
+		E3E0426B25E8CE0D00892652 /* SMJADRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMJADRootViewController.m; sourceTree = "<group>"; };
+		E3E0426C25E8CE0D00892652 /* SMJADSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMJADSecondViewController.m; sourceTree = "<group>"; };
+		E3E0426D25E8CE0D00892652 /* smjad_icon_redpacket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smjad_icon_redpacket.png; sourceTree = "<group>"; };
+		E3E0426E25E8CE0D00892652 /* SMJADRedPacketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMJADRedPacketViewController.h; sourceTree = "<group>"; };
+		E3E0426F25E8CE0D00892652 /* SMJADNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMJADNavigationController.m; sourceTree = "<group>"; };
+		E3E0427025E8CE0D00892652 /* SMJADThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMJADThirdViewController.h; sourceTree = "<group>"; };
+		E3E0427125E8CE0D00892652 /* UIViewController+showAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+showAd.h"; sourceTree = "<group>"; };
+		E3E0427225E8CE0D00892652 /* smjad_icon_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smjad_icon_close.png; sourceTree = "<group>"; };
+		E3E0427325E8CE0D00892652 /* SMJADSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMJADSecondViewController.h; sourceTree = "<group>"; };
+		E3E0427425E8CE0D00892652 /* SMJADRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMJADRootViewController.h; sourceTree = "<group>"; };
+		E3E0427525E8CE0D00892652 /* SMJADNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMJADNavigationController.h; sourceTree = "<group>"; };
+		E3E0427625E8CE0D00892652 /* SMJADRedPacketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMJADRedPacketViewController.m; sourceTree = "<group>"; };
+		E3E0427725E8CE0D00892652 /* SMJADThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMJADThirdViewController.m; sourceTree = "<group>"; };
+		E3E0429925E8CE7400892652 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		E3E0429C25E8CE7A00892652 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E3E0429F25E8CE7F00892652 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		E3E042A225E8CE8500892652 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		E3E042A525E8CE9600892652 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		E3E042A825E8CE9B00892652 /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
+		E3E042AB25E8CEA000892652 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		E3E042AD25E8CEA600892652 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		E3E042AF25E8CEAB00892652 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E3E042B125E8CEAF00892652 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		E3E042B325E8CEB700892652 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		E3E042B525E8CEBD00892652 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E3E042B725E8CEC200892652 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		E3E042B925E8CEC700892652 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		E3E042BB25E8CECC00892652 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		E3E042BD25E8CED100892652 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E3E042BF25E8CED600892652 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +178,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3E0427A25E8CE0D00892652 /* libLiteADLibrary.a in Frameworks */,
+				E3E042C025E8CED700892652 /* MobileCoreServices.framework in Frameworks */,
+				E3E042BE25E8CED100892652 /* SystemConfiguration.framework in Frameworks */,
+				E3E042BC25E8CECC00892652 /* StoreKit.framework in Frameworks */,
+				E3E042BA25E8CEC700892652 /* MediaPlayer.framework in Frameworks */,
+				E3E042B825E8CEC200892652 /* CoreMedia.framework in Frameworks */,
+				E3E042B625E8CEBD00892652 /* CoreLocation.framework in Frameworks */,
+				E3E042B425E8CEB700892652 /* CoreMotion.framework in Frameworks */,
+				E3E042B225E8CEAF00892652 /* CoreTelephony.framework in Frameworks */,
+				E3E042B025E8CEAB00892652 /* AVFoundation.framework in Frameworks */,
+				E3E042AE25E8CEA600892652 /* AdSupport.framework in Frameworks */,
+				E3E042AC25E8CEA000892652 /* Accelerate.framework in Frameworks */,
+				E3E042A925E8CE9B00892652 /* libresolv.9.tbd in Frameworks */,
+				E3E042A625E8CE9600892652 /* libxml2.tbd in Frameworks */,
+				E3E042A325E8CE8500892652 /* libbz2.tbd in Frameworks */,
+				E3E042A025E8CE7F00892652 /* libsqlite3.tbd in Frameworks */,
+				E3E0429D25E8CE7A00892652 /* libz.tbd in Frameworks */,
+				E3E0429A25E8CE7400892652 /* libc++.tbd in Frameworks */,
+				E3E0427D25E8CE0D00892652 /* BUFoundation.framework in Frameworks */,
 				2024D0B61160013BCCFAF6E8 /* Pods_WeChat_Work.framework in Frameworks */,
+				E3E0427B25E8CE0D00892652 /* BUAdSDK.framework in Frameworks */,
+				E3E0427C25E8CE0D00892652 /* BUCNAuxiliary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,12 +317,11 @@
 		4DE886CE25E4A40800CE6AE1 /* WeChat Work */ = {
 			isa = PBXGroup;
 			children = (
+				E3E0425025E8CE0D00892652 /* SMJ */,
 				4DE886F825E4A76700CE6AE1 /* SKT.h */,
 				4DE886F925E4A76700CE6AE1 /* SKT.m */,
 				4DE886CF25E4A40800CE6AE1 /* AppDelegate.h */,
 				4DE886D025E4A40800CE6AE1 /* AppDelegate.m */,
-				4DE886D225E4A40800CE6AE1 /* SceneDelegate.h */,
-				4DE886D325E4A40800CE6AE1 /* SceneDelegate.m */,
 				4DE886EC25E4A44B00CE6AE1 /* WaterRippleAndView.h */,
 				4DE886EB25E4A44B00CE6AE1 /* WaterRippleAndView.m */,
 				4DE886D525E4A40800CE6AE1 /* ViewController.h */,
@@ -238,9 +342,114 @@
 			path = "WeChat Work";
 			sourceTree = "<group>";
 		};
+		E3E0425025E8CE0D00892652 /* SMJ */ = {
+			isa = PBXGroup;
+			children = (
+				E3E0425125E8CE0D00892652 /* 文档 */,
+				E3E0425425E8CE0D00892652 /* SMJAD.h */,
+				E3E0425525E8CE0D00892652 /* LiteADLibrary */,
+				E3E0425825E8CE0D00892652 /* PangleSDK */,
+				E3E0425D25E8CE0D00892652 /* View */,
+				E3E0426625E8CE0D00892652 /* SMJADmanager */,
+				E3E0426925E8CE0D00892652 /* ViewController */,
+			);
+			path = SMJ;
+			sourceTree = "<group>";
+		};
+		E3E0425125E8CE0D00892652 /* 文档 */ = {
+			isa = PBXGroup;
+			children = (
+				E3E0425225E8CE0D00892652 /* SMJAD_UM_Config.txt */,
+				E3E0425325E8CE0D00892652 /* 广告库接入和使用.txt */,
+			);
+			path = "文档";
+			sourceTree = "<group>";
+		};
+		E3E0425525E8CE0D00892652 /* LiteADLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				E3E0425625E8CE0D00892652 /* LiteADLibrary.h */,
+				E3E0425725E8CE0D00892652 /* libLiteADLibrary.a */,
+			);
+			path = LiteADLibrary;
+			sourceTree = "<group>";
+		};
+		E3E0425825E8CE0D00892652 /* PangleSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E3E0425925E8CE0D00892652 /* BUAdSDK.framework */,
+				E3E0425A25E8CE0D00892652 /* BUCNAuxiliary.framework */,
+				E3E0425B25E8CE0D00892652 /* BUFoundation.framework */,
+				E3E0425C25E8CE0D00892652 /* BUAdSDK.bundle */,
+			);
+			path = PangleSDK;
+			sourceTree = "<group>";
+		};
+		E3E0425D25E8CE0D00892652 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3E0425E25E8CE0D00892652 /* MBProgressHUD.m */,
+				E3E0425F25E8CE0D00892652 /* AdBannerHeadView.h */,
+				E3E0426025E8CE0D00892652 /* UIView+action.h */,
+				E3E0426125E8CE0D00892652 /* UIImageView+SSWebImage.h */,
+				E3E0426225E8CE0D00892652 /* MBProgressHUD.h */,
+				E3E0426325E8CE0D00892652 /* UIView+action.m */,
+				E3E0426425E8CE0D00892652 /* AdBannerHeadView.m */,
+				E3E0426525E8CE0D00892652 /* UIImageView+SSWebImage.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E3E0426625E8CE0D00892652 /* SMJADmanager */ = {
+			isa = PBXGroup;
+			children = (
+				E3E0426725E8CE0D00892652 /* SMJADmanager.m */,
+				E3E0426825E8CE0D00892652 /* SMJADmanager.h */,
+			);
+			path = SMJADmanager;
+			sourceTree = "<group>";
+		};
+		E3E0426925E8CE0D00892652 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E3E0426A25E8CE0D00892652 /* UIViewController+showAd.m */,
+				E3E0426B25E8CE0D00892652 /* SMJADRootViewController.m */,
+				E3E0426C25E8CE0D00892652 /* SMJADSecondViewController.m */,
+				E3E0426D25E8CE0D00892652 /* smjad_icon_redpacket.png */,
+				E3E0426E25E8CE0D00892652 /* SMJADRedPacketViewController.h */,
+				E3E0426F25E8CE0D00892652 /* SMJADNavigationController.m */,
+				E3E0427025E8CE0D00892652 /* SMJADThirdViewController.h */,
+				E3E0427125E8CE0D00892652 /* UIViewController+showAd.h */,
+				E3E0427225E8CE0D00892652 /* smjad_icon_close.png */,
+				E3E0427325E8CE0D00892652 /* SMJADSecondViewController.h */,
+				E3E0427425E8CE0D00892652 /* SMJADRootViewController.h */,
+				E3E0427525E8CE0D00892652 /* SMJADNavigationController.h */,
+				E3E0427625E8CE0D00892652 /* SMJADRedPacketViewController.m */,
+				E3E0427725E8CE0D00892652 /* SMJADThirdViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		FA4606BC3893DD640436F2B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E3E042BF25E8CED600892652 /* MobileCoreServices.framework */,
+				E3E042BD25E8CED100892652 /* SystemConfiguration.framework */,
+				E3E042BB25E8CECC00892652 /* StoreKit.framework */,
+				E3E042B925E8CEC700892652 /* MediaPlayer.framework */,
+				E3E042B725E8CEC200892652 /* CoreMedia.framework */,
+				E3E042B525E8CEBD00892652 /* CoreLocation.framework */,
+				E3E042B325E8CEB700892652 /* CoreMotion.framework */,
+				E3E042B125E8CEAF00892652 /* CoreTelephony.framework */,
+				E3E042AF25E8CEAB00892652 /* AVFoundation.framework */,
+				E3E042AD25E8CEA600892652 /* AdSupport.framework */,
+				E3E042AB25E8CEA000892652 /* Accelerate.framework */,
+				E3E042A825E8CE9B00892652 /* libresolv.9.tbd */,
+				E3E042A525E8CE9600892652 /* libxml2.tbd */,
+				E3E042A225E8CE8500892652 /* libbz2.tbd */,
+				E3E0429F25E8CE7F00892652 /* libsqlite3.tbd */,
+				E3E0429C25E8CE7A00892652 /* libz.tbd */,
+				E3E0429925E8CE7400892652 /* libc++.tbd */,
 				3BEF98D0D4F96E4D97101FB6 /* Pods_WeChat_Work.framework */,
 			);
 			name = Frameworks;
@@ -307,9 +516,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DE886DF25E4A40A00CE6AE1 /* LaunchScreen.storyboard in Resources */,
+				E3E0427925E8CE0D00892652 /* 广告库接入和使用.txt in Resources */,
+				E3E0428925E8CE0D00892652 /* smjad_icon_close.png in Resources */,
 				4DE886DC25E4A40A00CE6AE1 /* Assets.xcassets in Resources */,
 				4D5D7F7625E50E4B00814A65 /* WSDatePickerView.xib in Resources */,
+				E3E0428725E8CE0D00892652 /* smjad_icon_redpacket.png in Resources */,
+				E3E0427E25E8CE0D00892652 /* BUAdSDK.bundle in Resources */,
 				4DE886DA25E4A40800CE6AE1 /* Main.storyboard in Resources */,
+				E3E0427825E8CE0D00892652 /* SMJAD_UM_Config.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,25 +576,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3E0428A25E8CE0D00892652 /* SMJADRedPacketViewController.m in Sources */,
 				4DE886FA25E4A76700CE6AE1 /* SKT.m in Sources */,
 				4DE886D725E4A40800CE6AE1 /* ViewController.m in Sources */,
 				4D5D7F8225E50E4B00814A65 /* WeChatWorkPinjieController.m in Sources */,
 				4D5D7F7A25E50E4B00814A65 /* WeChatWorkDingdanController.m in Sources */,
+				E3E0428B25E8CE0D00892652 /* SMJADThirdViewController.m in Sources */,
 				4D5D7F7825E50E4B00814A65 /* NSDate+Extension.m in Sources */,
 				4D5D7F7D25E50E4B00814A65 /* WeChatWorkShuiyinController.m in Sources */,
 				4DE886D125E4A40800CE6AE1 /* AppDelegate.m in Sources */,
+				E3E0428125E8CE0D00892652 /* AdBannerHeadView.m in Sources */,
 				4D5D7F8125E50E4B00814A65 /* WeChatWorkDATAController.m in Sources */,
+				E3E0428225E8CE0D00892652 /* UIImageView+SSWebImage.m in Sources */,
+				E3E0428825E8CE0D00892652 /* SMJADNavigationController.m in Sources */,
+				E3E0428025E8CE0D00892652 /* UIView+action.m in Sources */,
 				4DE886E225E4A40A00CE6AE1 /* main.m in Sources */,
 				4D5D7F7725E50E4B00814A65 /* WSDatePickerView.m in Sources */,
 				4D5D7F7925E50E4B00814A65 /* UIView+Extension.m in Sources */,
 				4D5D7F7E25E50E4B00814A65 /* WeChatWorkAddCodeController.m in Sources */,
 				4D5D7F7C25E50E4B00814A65 /* WatermarkView.m in Sources */,
+				E3E0428625E8CE0D00892652 /* SMJADSecondViewController.m in Sources */,
+				E3E0427F25E8CE0D00892652 /* MBProgressHUD.m in Sources */,
+				E3E0428325E8CE0D00892652 /* SMJADmanager.m in Sources */,
 				4D5D7F8025E50E4B00814A65 /* WeChatWorkPreviewView.m in Sources */,
 				4D5D7F7525E50E4B00814A65 /* WeChatWorkAddDingdanController.m in Sources */,
+				E3E0428425E8CE0D00892652 /* UIViewController+showAd.m in Sources */,
 				4DE886ED25E4A44B00CE6AE1 /* WaterRippleAndView.m in Sources */,
+				E3E0428525E8CE0D00892652 /* SMJADRootViewController.m in Sources */,
 				4D5D7F7425E50E4B00814A65 /* WeChatWorkPasswordCell.m in Sources */,
 				4D5D7F7325E50E4B00814A65 /* WeChatWorkPassWordController.m in Sources */,
-				4DE886D425E4A40800CE6AE1 /* SceneDelegate.m in Sources */,
 				4D5D7F7F25E50E4B00814A65 /* WeChatWorkManager.m in Sources */,
 				4D5D7F7B25E50E4B00814A65 /* WeChatWorkJietuViewController.m in Sources */,
 			);
@@ -443,8 +667,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "armv7 armv7s";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -502,8 +728,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "armv7 armv7s";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -529,6 +757,12 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J64X3MCD9Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeChat\\ Work/SMJ/PangleSDK",
+					"$(PROJECT_DIR)/WeChat\\ Work/SMJ/PangleSDK",
+					"$(PROJECT_DIR)/WeChat\\ Work/SMJ/PangleSDK",
+				);
 				GCC_PREFIX_HEADER = "WeChat Work/PrefixHeader.pch";
 				INFOPLIST_FILE = "WeChat Work/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -536,6 +770,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeChat\\ Work/SMJ/LiteADLibrary",
+					"$(PROJECT_DIR)/WeChat\\ Work/SMJ/LiteADLibrary",
+				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sk.wechatwork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -552,6 +792,12 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J64X3MCD9Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeChat\\ Work/SMJ/PangleSDK",
+					"$(PROJECT_DIR)/WeChat\\ Work/SMJ/PangleSDK",
+					"$(PROJECT_DIR)/WeChat\\ Work/SMJ/PangleSDK",
+				);
 				GCC_PREFIX_HEADER = "WeChat Work/PrefixHeader.pch";
 				INFOPLIST_FILE = "WeChat Work/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -559,6 +805,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeChat\\ Work/SMJ/LiteADLibrary",
+					"$(PROJECT_DIR)/WeChat\\ Work/SMJ/LiteADLibrary",
+				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sk.wechatwork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

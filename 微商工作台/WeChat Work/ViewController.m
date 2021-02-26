@@ -55,11 +55,14 @@
     }];
     
     [self.WaterRippleBack bringSubviewToFront:self.WeChatWorkCount];
+    
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     self.WeChatWorkNumber.text = @([SKUserGet(@"WeChatWorkDingdanData") count]).stringValue;
+    [SMJADmanager.share showRedPacket:self];
 }
 
 - (WaterRippleAndView *)BackView {
@@ -70,49 +73,51 @@
 }
 
 - (IBAction)WeChatWorkActions:(UIButton *)sender {
-    switch (sender.tag) {
-        case 0: {
-            WeChatWorkDingdanController *WeChatWorkDingdanController =  [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"WeChatWorkDingdanController"];
-            [self.navigationController pushViewController:WeChatWorkDingdanController animated:YES];
+    [self showADComplete:^{
+        switch (sender.tag) {
+            case 0: {
+                WeChatWorkDingdanController *WeChatWorkDingdanController =  [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"WeChatWorkDingdanController"];
+                [self.navigationController pushViewController:WeChatWorkDingdanController animated:YES];
+            }
+                break;
+            case 1: {
+                WeChatWorkPassWordController *WeChatWorkPassWordController =  [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"WeChatWorkPassWordController"];
+                [self.navigationController pushViewController:WeChatWorkPassWordController animated:YES];
+            }
+                break;
+            case 2: {
+                WeChatWorkShuiyinController *WeChatWorkShuiyinController =  [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"WeChatWorkShuiyinController"];
+                [self.navigationController pushViewController:WeChatWorkShuiyinController animated:YES];
+            }
+                break;
+            case 3: {
+                WeChatWorkDATAController *WeChatWorkDATAController =  [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"WeChatWorkDATAController"];
+                [self.navigationController pushViewController:WeChatWorkDATAController animated:YES];
+            }
+                break;
+            case 4: {
+                WeChatWorkJietuViewController *WeChatWorkJietuViewController =  [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"WeChatWorkJietuViewController"];
+                [self.navigationController pushViewController:WeChatWorkJietuViewController animated:YES];
+            }
+                break;
+            case 5: {
+                WeChatWorkPinjieController *WeChatWorkPinjieController =  [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"WeChatWorkPinjieController"];
+                [self.navigationController pushViewController:WeChatWorkPinjieController animated:YES];
+            }
+                break;
+            case 6: {
+                [SKT shareOrRate:@"1555039198" Shared:NO];
+            }
+                break;
+            case 7: {
+                [SKT shareOrRate:@"1555039198" Shared:YES];
+            }
+                break;
+                
+            default:
+                break;
         }
-            break;
-        case 1: {
-            WeChatWorkPassWordController *WeChatWorkPassWordController =  [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"WeChatWorkPassWordController"];
-            [self.navigationController pushViewController:WeChatWorkPassWordController animated:YES];
-        }
-            break;
-        case 2: {
-            WeChatWorkShuiyinController *WeChatWorkShuiyinController =  [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"WeChatWorkShuiyinController"];
-            [self.navigationController pushViewController:WeChatWorkShuiyinController animated:YES];
-        }
-            break;
-        case 3: {
-            WeChatWorkDATAController *WeChatWorkDATAController =  [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"WeChatWorkDATAController"];
-            [self.navigationController pushViewController:WeChatWorkDATAController animated:YES];
-        }
-            break;
-        case 4: {
-            WeChatWorkJietuViewController *WeChatWorkJietuViewController =  [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"WeChatWorkJietuViewController"];
-            [self.navigationController pushViewController:WeChatWorkJietuViewController animated:YES];
-        }
-            break;
-        case 5: {
-            WeChatWorkPinjieController *WeChatWorkPinjieController =  [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"WeChatWorkPinjieController"];
-            [self.navigationController pushViewController:WeChatWorkPinjieController animated:YES];
-        }
-            break;
-        case 6: {
-            [SKT shareOrRate:@"1555039198" Shared:NO];
-        }
-            break;
-        case 7: {
-            [SKT shareOrRate:@"1555039198" Shared:YES];
-        }
-            break;
-            
-        default:
-            break;
-    }
+    }];
 }
 
 
